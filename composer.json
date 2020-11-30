@@ -1,0 +1,20 @@
+{
+  "name": "orion-ua/ddd-core",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "0r10n",
+      "email": "orion.dev.uk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2 | ^8"
+  },
+  "autoload": {
+    "psr-0": {
+      "OrionUa/DDDCore": "src/"
+    }
+  }
+}
