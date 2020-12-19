@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrionUa\DDDCore\Infrastructure\Repository\Exception;
-
-use OrionUa\DDDCore\Infrastructure\Exception\InfrastructureException;
+namespace OrionUa\DDDCore\Infrastructure\Exception;
 
 class EntityNotFoundException extends InfrastructureException
 {

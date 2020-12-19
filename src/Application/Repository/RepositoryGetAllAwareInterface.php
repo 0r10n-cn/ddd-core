@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrionUa\DDDCore\Infrastructure\Repository;
+namespace OrionUa\DDDCore\Application\Repository;
 
 use Doctrine\Common\Collections\Collection;
 

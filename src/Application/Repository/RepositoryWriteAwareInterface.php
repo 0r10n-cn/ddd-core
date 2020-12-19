@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrionUa\DDDCore\Infrastructure\Repository;
+namespace OrionUa\DDDCore\Application\Repository;
 
 use OrionUa\DDDCore\Domain\Entity\EntityInterface;
 

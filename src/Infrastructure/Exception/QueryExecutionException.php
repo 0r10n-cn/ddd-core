@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrionUa\DDDCore\Infrastructure\Repository\Exception;
+namespace OrionUa\DDDCore\Infrastructure\Exception;
 
 class QueryExecutionException extends \RuntimeException
 {
