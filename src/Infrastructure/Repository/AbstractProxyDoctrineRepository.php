@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace OrionUa\DDDCore\Infrastructure\Repository;
 
-use OrionUa\DDDCore\Infrastructure\Repository\Exception\EntityNotFoundException;
-use OrionUa\DDDCore\Infrastructure\Repository\RepositoryInterface;
-use OrionUa\DDDCore\Infrastructure\Repository\RepositoryWriteAwareInterface;
+use OrionUa\DDDCore\Infrastructure\Exception\EntityNotFoundException;
+use OrionUa\DDDCore\Application\Repository\RepositoryInterface;
+use OrionUa\DDDCore\Application\Repository\RepositoryWriteAwareInterface;
 use OrionUa\DDDCore\Infrastructure\Repository\Schema\Table;
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\QueryBuilder;
