@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace OrionUa\DDDCore\Application\CQRS;
 
-interface CommandInterface
+use OrionUa\DDDCore\Application\DTO\DTOInterface;
+
+interface CommandInterface extends DTOInterface
 {
 
 }
