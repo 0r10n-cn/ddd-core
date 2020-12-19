@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abstraction\Infrastructure\Repository;
+namespace OrionUa\DDDCore\Infrastructure\Repository;
 
 use OrionUa\DDDCore\Infrastructure\Repository\Exception\EntityNotFoundException;
 use OrionUa\DDDCore\Infrastructure\Repository\RepositoryInterface;
