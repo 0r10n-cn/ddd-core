@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace OrionUa\DDDCore\Infrastructure\Repository\Schema;
 /**
  * Class Table
- * @package Abstraction\Infrastructure\Repository\Schema
  */
 class Table
 {

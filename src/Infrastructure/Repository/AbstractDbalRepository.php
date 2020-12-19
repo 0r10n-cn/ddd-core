@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abstraction\Infrastructure\Repository;
+namespace OrionUa\DDDCore\Infrastructure\Repository;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Exception;
@@ -10,9 +10,9 @@ use Doctrine\DBAL\ParameterType;
 use Doctrine\DBAL\Query\QueryBuilder;
 use OrionUa\DDDCore\Application\DTO\DTOInterface;
 use OrionUa\DDDCore\Infrastructure\Mapper\MapperInterface;
-use OrionUa\DDDCore\Infrastructure\Repository\Exception\EntityNotFoundException;
-use OrionUa\DDDCore\Infrastructure\Repository\Exception\QueryExecutionException;
-use OrionUa\DDDCore\Infrastructure\Repository\RepositoryInterface;
+use OrionUa\DDDCore\Infrastructure\Exception\EntityNotFoundException;
+use OrionUa\DDDCore\Infrastructure\Exception\QueryExecutionException;
+use OrionUa\DDDCore\Application\Repository\RepositoryInterface;
 use OrionUa\DDDCore\Infrastructure\Repository\Schema\Table;
 
 class AbstractDbalRepository implements RepositoryInterface
