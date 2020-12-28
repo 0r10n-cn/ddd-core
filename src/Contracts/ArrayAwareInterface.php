@@ -6,7 +6,7 @@ namespace OrionUa\DDDCore\Contracts;
 
 interface ArrayAwareInterface
 {
-    public static function newFromArray(array $data): self;
+    public static function fromArray(array $data): self;
 
     public function toArray(): array;
 }

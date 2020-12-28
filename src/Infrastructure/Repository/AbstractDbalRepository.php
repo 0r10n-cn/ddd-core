@@ -53,7 +53,7 @@ class AbstractDbalRepository implements RepositoryInterface
                 ->from($this->table->tableName(), $this->table->alias())
                 ->where($this->table->createColumn('id') .' = '. $idParam)
                 ->execute()
-                ->fetchOne();
+                ->fetchAssociative();
         } catch (Exception $exception) {
             throw new QueryExecutionException(
                 sprintf('Failed to get %s with id %d', $this->table->tableName(), $id),
