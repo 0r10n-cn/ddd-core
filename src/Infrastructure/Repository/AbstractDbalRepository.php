@@ -45,13 +45,14 @@ class AbstractDbalRepository implements RepositoryInterface
         $idParam = $queryBuilder->createNamedParameter(
             $id,
             ParameterType::INTEGER,
-            'id'
+            ':id'
         );
         try {
             $row = $queryBuilder
                 ->select('*')
                 ->from($this->table->tableName(), $this->table->alias())
                 ->where($this->table->createColumn('id') .' = '. $idParam)
+                ->setMaxResults(1)
                 ->execute()
                 ->fetchAssociative();
         } catch (Exception $exception) {
