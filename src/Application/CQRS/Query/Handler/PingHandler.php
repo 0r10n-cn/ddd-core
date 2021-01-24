@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Application\CQRS\Query\Handler;
+namespace OrionUa\DDDCore\Application\CQRS\Query\Handler;
 
 use OrionUa\DDDCore\Application\CQRS\HandlerInterface;
 use OrionUa\DDDCore\Application\CQRS\Query\Ping;
