@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrionUa\DDDCore\Domain\Entity;
+namespace OrionUa\DDDCore\Domain\Event;
 
 interface EventAwareInterface
 {
